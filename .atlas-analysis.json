@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Job Knowledge Base",
+  "projectDescription": "A comprehensive knowledge base for job-related information, workflows, and resources to help users manage and navigate their work effectively.",
   "theme": "almond",
-  "name": "Job Knowledge Base",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -49,20 +47,12 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@example.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "/introduction"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Centralized knowledge repository for job-related information",
+    "Step-by-step guides for common workflows",
+    "Searchable reference glossary and FAQ",
+    "Best practices and tips for daily work",
+    "Quick access to key resources and tools"
+  ],
+  "publicApiSurface": []
 }
